@@ -517,7 +517,7 @@ function showHighScores() {
         let resultScore = document.createElement('td');
         let resultInitials = document.createElement('td');
 
-        resultRank.innerText = hScores[i].rank;
+        resultRank.innerText = i+1;
         resultScore.innerText = hScores[i].score;
         resultInitials.innerText = hScores[i].initials;
 
